@@ -26,6 +26,14 @@ body {
   padding-bottom: 32px;
 }
 
+@media only screen and (max-width: 820px) {
+  .todo-app {
+    width: 100%;
+    min-height: 100%;
+    border: 2px solid white;
+  }
+}
+
 h1 {
   margin: 32px 0;
   color: #fff;
@@ -140,4 +148,16 @@ h1 {
 
 .edit-icon {
   color: #fff;
+}
+
+#clearTodo {
+  margin-bottom: 1rem;
+}
+
+.react-todo a {
+  color: white;
+}
+
+.react-todo a:hover {
+  color: rgb(211, 208, 208);
 }

@@ -10,16 +10,8 @@ window.addEventListener("load", (event) => {
     var task = input.value;
     if (!task) {
       alert("You haven't made any Todo list ");
-      return;
-    }
-
-    // var paragraph = document.createElement("p");
-
-    // paragraph.innerText = task;
-
-    // todoContainer.appendChild(paragraph);
-
-    todoContainer.innerHTML += `
+    } else {
+      todoContainer.innerHTML += `
         <div class="todo-row todo-rowContainer" >
             <span class="todo-list">${task}</span>
            
@@ -28,21 +20,22 @@ window.addEventListener("load", (event) => {
         </div>
     `;
 
-    var todoDelete = document.querySelectorAll(".todo__delete");
-    for (var i = 0; i < todoDelete.length; i++) {
-      todoDelete[i].onclick = function () {
-        this.parentNode.remove();
-      };
-    }
+      var todoDelete = document.querySelectorAll(".todo__delete");
+      for (var i = 0; i < todoDelete.length; i++) {
+        todoDelete[i].onclick = function () {
+          this.parentNode.remove();
+        };
+      }
 
-    var todoList = document.querySelectorAll(".todo-list");
-    for (var i = 0; i < todoList.length; i++) {
-      todoList[i].onclick = function () {
-        this.classList.toggle("complete");
-      };
-    }
+      var todoList = document.querySelectorAll(".todo-list");
+      for (var i = 0; i < todoList.length; i++) {
+        todoList[i].onclick = function () {
+          this.classList.toggle("complete");
+        };
+      }
 
-    input.value = " ";
+      input.value = " ";
+    }
   });
 });
 

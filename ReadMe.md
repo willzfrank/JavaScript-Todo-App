@@ -10,7 +10,7 @@
 <p align="center"> About the  project.
     <br>
 
-    Original design <a href="https://www.youtube.com/watch?v=E1E08i2UJGI&t=65s">https://www.youtube.com/watch?v=E1E08i2UJGI&t=65s</a> was made with React library , in which i made my own design edit with vanilla javaScript <a href="">LIVE PROJECT</a>.
+    Original design made by designcodex was made with React library , in which i made my own design edit with vanilla javaScript.
 
 </p>
 
@@ -19,10 +19,10 @@
 - [About](#about)
 - [Getting Started](#getting_started)
 - [Deployment](#deployment)
-- [Usage](#usage)
+<!-- - [Usage](#usage) -->
 - [Built Using](#built_using)
-- [TODO](../TODO.md)
-- [Contributing](../CONTRIBUTING.md)
+  <!-- - [TODO](../TODO.md) -->
+  <!-- - [Contributing](../CONTRIBUTING.md) -->
 - [Authors](#authors)
 - [Acknowledgments](#acknowledgement)
 
