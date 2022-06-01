@@ -4,7 +4,15 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+    <link rel="manifest" href="/site.webmanifest" />
     <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://unicons.iconscout.com/release/v4.0.0/css/line.css"
+    />
     <title>JavaScript-ToDo App</title>
   </head>
   <body class="todo-app">
@@ -13,7 +21,13 @@
       <input placeholder="Add a todo" class="todo-input" />
       <button type="submit" class="todo-button">Add todo</button>
     </form>
-    <ul class="todo-row" id="todo-row"></ul>
+    <div class="todo-row" id="todo-row"></div>
+
+    <div id="clearTodo" onclick="removeAll()" class="todo-button">
+      Clear Todo List
+    </div>
+
+    <h3> <a href="reacttodoproject.netlify.app">REACT TODO LIVE PROJECT</a>
 
     <script src="main.js"></script>
   </body>
